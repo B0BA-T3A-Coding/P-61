@@ -1,0 +1,89 @@
+body {
+    text-align: center;
+    background-color: lavenderblush;
+}
+
+#books{
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+}
+
+h2 {
+    color: #333399;
+    font-family: fantasy;
+}
+
+#bio {
+    padding: 20px;
+    font-size: 20px;
+    color: #333399;
+    font-family: monospace;
+}
+
+hr {
+    border-color: black;
+}
+
+#Home {
+    background: linear-gradient(90deg, hsla(173, 70%, 85%, 1) 0%, hsla(64, 70%, 91%, 1) 100%);
+
+}
+
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+}
+
+p {
+    font-size: 40px;
+}
+
+.links {
+    float: left;
+    color: black;
+    padding: 5px 5px;
+}
+
+.menu {
+    list-style: none;
+    font-family: cursive;
+    position: fixed;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+}
+
+li:hover {
+    color: lightblue;
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+#FavBook{
+    background-color: aliceblue;
+}
+#about{
+    background-color: lavender;
+}
+#who-hq:hover{
+    transform:scale(0.9);
+}
+#who-hq{
+    transition:transform .2s;
+    border: 10px solid #AAAAAA;
+}
+#work{
+    background-color: thistle;
+}
+#myinspa{
+    background-color: honeydew
+}
+
